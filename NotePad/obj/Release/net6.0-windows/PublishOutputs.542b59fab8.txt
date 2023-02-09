@@ -1,0 +1,5 @@
+E:\Codes\C#\NotePad\NotePad\bin\Release\net6.0-windows\publish\NotePad.exe
+E:\Codes\C#\NotePad\NotePad\bin\Release\net6.0-windows\publish\NotePad.dll
+E:\Codes\C#\NotePad\NotePad\bin\Release\net6.0-windows\publish\NotePad.deps.json
+E:\Codes\C#\NotePad\NotePad\bin\Release\net6.0-windows\publish\NotePad.runtimeconfig.json
+E:\Codes\C#\NotePad\NotePad\bin\Release\net6.0-windows\publish\NotePad.pdb
