@@ -104,5 +104,26 @@ namespace NotePad
             richTextBox1.ForeColor = Color.White;
             richTextBox1.BackColor = Color.MidnightBlue;
         }
+
+        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RichTextBox rtxt = this.ActiveControl as RichTextBox;
+            if (rtxt.SelectedText != string.Empty)
+                Clipboard.SetData(DataFormats.Text, rtxt.SelectedText);
+            rtxt.SelectedText = string.Empty;
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RichTextBox rtxt = this.ActiveControl as RichTextBox;
+            if (rtxt.SelectedText != string.Empty)
+                Clipboard.SetData(DataFormats.Text, rtxt.SelectedText);
+        }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int position = ((RichTextBox)this.ActiveControl).SelectionStart;
+            this.ActiveControl.Text = this.ActiveControl.Text.Insert(position, Clipboard.GetText());
+        }
     }
 }

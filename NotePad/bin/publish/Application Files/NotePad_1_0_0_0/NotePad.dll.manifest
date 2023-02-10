@@ -62,13 +62,13 @@
       <dsig:DigestValue>VAapUiRsD+Ktz9JTGl16rTJrWanWARY4iHeJEVkWgxs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NotePad.dll" size="82432">
+  <file name="NotePad.dll" size="83968">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CjGohAPDc9fIw0faEZB/mNVrpXx0yIlQnldHxsmZBZY=</dsig:DigestValue>
+      <dsig:DigestValue>bBS/PvoHW+g77d8UkhpF1cLdM3KWJ87oARGM2lmXkVk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NotePad.exe" size="147968">
